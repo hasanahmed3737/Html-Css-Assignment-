@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="My-courses" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +11,7 @@
     <header class="header">
             <a href="index.html" class="logo"><span>Has</span>san <br> Aca<span>demy</span></a>
             <nav class="nav">
-            <a href="My courses.html">My courses</a>
+            <a class="heading-hover" href="My courses.html">My courses</a>
             <a href="Add course.html">Add courses</a>
             <a href="contact.html">Contact Us</a>
             </nav>
@@ -19,35 +19,52 @@
             <i class="fa-brands fa-whatsapp"></i> Contact Me </a>
     </header>
     <section class="constant-style"> 
-        <div class="cards">
-            <div class="course-card">
-                <h3>Python</h3>
-                <p>Learn Python programming from scratch to advanced levels.</p>
-                <img class="img-cards" src="images/python.png">
-
-            </div>
-            <div class="course-card">
-                <h3>Web Development</h3>
-                <p>Build modern websites with HTML, CSS, and JavaScript.</p>
-                <img class="img-cards" src="images/web.png">
-            </div>
-            <div class="course-card">
-                <h3>C , C++ , C#</h3>
-                <p>Helping you to build robust applications in C, C++, and C#.</p>
-                <img class="img-cards" src="images/C .png">
-            </div>
-            <div class="course-card">
-                <h3>Java</h3>
-                <p style="padding-bottom: 20px;">Master Java programming for web and mobile development.</p>
-                <img class="img-cards" src="images/java3.png">
-            </div>
-                <div class="course-card">
-                    <h3>Data Structure</h3>
-                    <p>Explore data analysis, visualization, and machine learning.</p>
-                    <img class="img-cards" src="images/data.png">
-                </div>
-        </div>   
-    </section>
+    <div class="table-container">
+        <table class="courses-table">
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Logo</th>
+                    <th>Credit hours</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><h3>Python</h3></td>
+                    <td>Learn Python programming from scratch to advanced levels.</td>
+                    <td><img class="img-table" src="images/python.png" alt="Python"></td>
+                    <td><span>2 hours</span></td>
+                </tr>
+                <tr>
+                    <td><h3>Web Development</h3></td>
+                    <td>Build modern websites with HTML, CSS, and JavaScript.</td>
+                    <td><img class="img-table" src="images/web.png" alt="Web Dev"></td>
+                    <td><span>3 hours</span></td>
+                </tr>
+                <tr>
+                    <td><h3>C , C++ , C#</h3></td>
+                    <td>Helping you to build robust applications in C, C++, and C#.</td>
+                    <td><img class="img-table" src="images/C .png" alt="C Languages"></td>
+                    <td><span>4 hours</span></td>
+                </tr>
+                <tr>
+                    <td><h3>Java</h3></td>
+                    <td>Master Java programming for web and mobile development.</td>
+                    <td><img class="img-table" src="images/java3.png" alt="Java"></td>
+                    <td><span>2 hours</span></td>
+                </tr>
+                <tr>
+                    <td><h3>Data Structure</h3></td>
+                    <td>Explore data analysis, visualization, and machine learning.</td>
+                    <td><img class="img-table" src="images/data.png" alt="Data Structure"></td>
+                    <td><span>3 hours</span></td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</section>
     <footer class="footer">
         <nav class="social">
             <a href="https://www.facebook.com/hassan.ahmed.84879" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
